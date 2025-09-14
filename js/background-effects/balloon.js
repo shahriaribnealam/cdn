@@ -1,6 +1,6 @@
 		  
 			  //Configure below to change URL path to the snow image
-			  var snowsrc="balloon.png";
+			  var snowsrc="https://raw.githubusercontent.com/shahriaribnealam/cdn/refs/heads/main/js/background-effects/balloon.png";
 			  // Configure below to change number of snow to render
 			  var no = 10;
 			  // Configure whether snow should disappear after x seconds (0=never):
