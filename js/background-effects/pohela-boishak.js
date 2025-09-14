@@ -1,12 +1,12 @@
 ﻿var snowsrc="https://raw.githubusercontent.com/shahriaribnealam/cdn/refs/heads/main/js/background-effects/b1.png";
-var snowsrc2="https://raw.githubusercontent.com/shahriaribnealam/cdn/refs/heads/main/js/background-effects/b2.png";
+var snowsrc2="https://raw.githubusercontent.com/shahriaribnealam/cdn/refs/heads/main/js/background-effects/b22.png";
 var snowsrc3="https://raw.githubusercontent.com/shahriaribnealam/cdn/refs/heads/main/js/background-effects/b3.png";
-var snowsrc4="https://raw.githubusercontent.com/shahriaribnealam/cdn/refs/heads/main/js/background-effects/b4.png";
+var snowsrc4="https://raw.githubusercontent.com/shahriaribnealam/cdn/refs/heads/main/js/background-effects/b44.png";
 var snowsrc5="https://raw.githubusercontent.com/shahriaribnealam/cdn/refs/heads/main/js/background-effects/b5.png";
 var snowsrc6="https://raw.githubusercontent.com/shahriaribnealam/cdn/refs/heads/main/js/background-effects/b6.png";
 var snowsrc7="https://raw.githubusercontent.com/shahriaribnealam/cdn/refs/heads/main/js/background-effects/b8.png";
 var snowsrc8="https://raw.githubusercontent.com/shahriaribnealam/cdn/refs/heads/main/js/background-effects/b1.png";
-var snowsrc9="https://raw.githubusercontent.com/shahriaribnealam/cdn/refs/heads/main/js/background-effects/b2.png";
+var snowsrc9="https://raw.githubusercontent.com/shahriaribnealam/cdn/refs/heads/main/js/background-effects/b22.png";
 var snowsrc10="https://raw.githubusercontent.com/shahriaribnealam/cdn/refs/heads/main/js/background-effects/b3.png";
 var no=10;var hidesnowtime=0;var snowdistance="pageheight";var ie4up=(document.all)?1:0;var ns6up=(document.getElementById&&!document.all)?1:0;function iecompattest(){return(document.compatMode&&document.compatMode!="BackCompat")?document.documentElement:document.body}
 var dx,xp,yp;var am,stx,sty;var i,doc_width=800,doc_height=600;if(ns6up){doc_width=self.innerWidth;doc_height=self.innerHeight;}else if(ie4up){doc_width=iecompattest().clientWidth;doc_height=iecompattest().clientHeight;}
@@ -18,4 +18,5 @@ snowtimer=setTimeout("snowIE_NS6()",10);}
 function hidesnow(){if(window.snowtimer)clearTimeout(snowtimer)
 for(i=0;i<no;i++)document.getElementById("dot"+i).style.visibility="hidden"}
 if(ie4up||ns6up){snowIE_NS6();if(hidesnowtime>0)
+
 setTimeout("hidesnow()",hidesnowtime*1000)};
