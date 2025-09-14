@@ -1,11 +1,6 @@
-			/******************************************
-			* Bat Effect - Author By : SteveWAP - (http://stevendie.xtgem.com)
-			* Script Collections http://stevendie.xtgem.com/wapmaster.html
-		* Created With Nokia 6630
-			******************************************/
-			  
+		  
 			  //Configure below to change URL path to the snow image
-			  var snowsrc="http://stevendie.xtgem.com/js/effect/bat.gif";
+			  var snowsrc="https://raw.githubusercontent.com/shahriaribnealam/cdn/refs/heads/main/js/background-effects/bat.gif";
 			  // Configure below to change number of snow to render
 			  var no = 1;
 			  // Configure whether snow should disappear after x seconds (0=never):
@@ -85,4 +80,5 @@
 				snowIE_NS6();
 					if (hidesnowtime>0)
 					setTimeout("hidesnow()", hidesnowtime*1000)
+
 					}
